@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Rebates table container*/
+.rebates-table-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Rebates table*/
+.rebates-table{
+    width: 80%;
+}
+
+table, th, td{
+    border: none !important;
+}
+
+/*Rebates table header (the row that holds the column labels)*/
+.rebates-table-row-header{
+    background-color: #000;
+}
+
+.rebates-table-header{
+    color: #fff;
+    padding: 0.5% 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*Rebates table rebate information (utility company,  product name, price) */
+.rebates-table-utility-name,.rebates-table-utility-price{
+    padding: .5% 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.rebates-table-utility-product{
+    padding: .5% 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width:1100px){
+    /* Rebates table*/
+    .rebates-table{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    /* Rebates table*/
+    .rebates-table{
+        width: 90%;
+    }
+    .rebates-table-header{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    /* Rebates table*/
+    .rebates-table{
+        width: 100%;
+    }
+    /*Rebates Table Header */
+    .rebates-table-header{
+        padding: 0.5% 0;
+        font-size: 1rem;
+    }
+    /*rebates table data */
+    .rebates-table-utility-name,.rebates-table-utility-price,.rebates-table-utility-product{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width:400px){
+    /*Rebates Table Header */
+    .rebates-table-header{
+        font-size: 1rem;
+    }
+    /*rebates table data */
+    .rebates-table-utility-name,.rebates-table-utility-price,.rebates-table-utility-product{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width:350px){
+    /*Rebates Table Header */
+    .rebates-table-header{
+        font-size: .8rem;
+    }
+    /*rebates table data */
+    .rebates-table-utility-name,.rebates-table-utility-price,.rebates-table-utility-product{
+        font-size: .7rem;
+    }
+}
